@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# yafs
+# Yet Another Fetch Script
+#
+
+# Get Desktop Enviroment
+de=$XDG_CURRENT_DESKTOP
+
+# Distro
+distro=$(cat /etc/os-release)
